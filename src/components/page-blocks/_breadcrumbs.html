@@ -1,0 +1,21 @@
+<section class='breadcrumbs'>
+    <div class='container container--small2'>
+        <div class='breadcrumbs__inner'>
+            <a href="" class="breadcrumbs__item">Главная</a>
+            <!--  -->
+            @@if(third === ""){
+            <span class="breadcrumbs__item">link</span> }
+            <!--  -->
+            @@if(third !== "" && fourth === ""){
+            <a href="" class="breadcrumbs__item">@@second</a>
+            <span class="breadcrumbs__item">@@third</span> }
+            <!--  -->
+            @@if(fourth !== ""){
+            <a href="" class="breadcrumbs__item">@@second</a>
+            <a href="" class="breadcrumbs__item">@@third</a>
+            <span class="breadcrumbs__item">@@fourth</span> }
+        </div>
+    </div>
+</section>
+
+<!-- @@include('components/page-blocks/_breadcrumbs.html',{"second":"link1","third":"link2","fourth":"link3"}) -->

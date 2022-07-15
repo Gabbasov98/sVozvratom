@@ -1,0 +1,27 @@
+@import "vars";
+@mixin font-face($name, $file, $weight: 400, $style: normal) {
+    @font-face {
+        font-family: "#{$name}";
+        src: url('../fonts/#{$file}.ttf') format('ttf'),
+        url('../fonts/#{$file}.woff2') format('woff2'),
+        url('../fonts/#{$file}.woff') format('woff'),
+        url('../fonts/#{$file}.eot') format('eot');
+        font-weight: $weight;
+        font-style: $style;
+        font-display: swap;
+    }
+}
+
+@mixin scroll {
+    &::-webkit-scrollbar {
+        width: 3px;
+    }
+    &::-webkit-scrollbar-track {
+        background: $yellow;
+        border-radius: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $black;
+        border-radius: 3px;
+    }
+}

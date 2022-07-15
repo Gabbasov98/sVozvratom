@@ -1,0 +1,79 @@
+@import "../vars";
+.header{
+  padding: 40px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  &__inner{
+    display: flex;
+    align-items: center;
+  }
+  &__logo{
+    width: 219px;
+    display: block;
+    img{
+      width: 100%;
+      display: block;
+    }
+  }
+  &__text{
+    max-width: 178px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 160%;
+    margin-left: 25px;
+  }
+  &__city{
+    position: relative;
+    margin-left: 6px;
+    color: #fff;
+    svg{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      z-index: -1;
+    }
+
+  }
+}
+
+@media screen and (max-width: 992px){
+  .header{
+    &__inner{
+      display: block;
+    }
+    &__logo{
+      margin: 0 auto;
+    }
+    &__text{
+      margin: 13px 0 0;
+      text-align: center;
+      max-width: unset;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    &__logo{
+      width: 169px;
+    }
+    &__text{
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+    }
+    &__city{
+      svg{
+        width: 46px;
+        height: auto;
+      }
+    }
+  }
+}

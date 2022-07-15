@@ -1,0 +1,287 @@
+<!DOCTYPE html> @@include('components/page-blocks/_head.html',{ "lang":"ru", "title":"Главная", "description":"", "keywords":"",})
+
+<body>
+    <div class="wrapper">
+        @@include('components/page-blocks/_header.html')
+        <main class="content">
+
+            <section class="main">
+               <div class="container">
+                    <div class="main__inner">
+                        <div class="main__title">Зарабатывай на вещах, пока они не нужны</div>
+                        <div class="main__desc">У вас есть вещи, которые вы не используете 365 дней в году? Мы сдадим ваши вещи в аренду, поможем заработать и вернем в целости и чистоте, когда они снова вам потребуются.</div>
+                        <div class="main__buttons">
+                            <button data-modal="callModal" class="main__btn mbtn mbtn-blue">Хочу сдавать вещи</button>
+                            <a href="#calc" class="main__btn mbtn mbtn-dashed">Сколько я заработаю?</a>
+                        </div>
+                    </div>
+               </div>
+               <img src="img/main-img.svg" alt="" class="main__img">
+           </section>
+
+            <section class="example">
+                <img src="img/example-bg.webp" alt="" class="example__bg">
+                <div class="container">
+                    <div class="example__inner">
+                        <div class="example__text">
+                            <div class="example__title">
+                                <span>Например, у Макара есть палатка</span>
+                                <img src="img/arrow.svg" alt="">
+                            </div>
+                            <div class="example__desc">
+                                <p>Он пользуется ей две недели в году, когда часть отпуска проводит на природе как “дикий” турист.
+                                    <br> Все остальное время палатка у Макара лежит в шкафу, занимая место и пылясь.</p>
+                                <p>Но если Макар сдаст палатку людям, которые в ней нуждаются во время “простоя”, то получит больше свободного места в шкафу и около 5000 Р. дохода за каждый месяц сдачи в аренду!</p>
+                            </div>
+                            <div class="example__link">
+                                <a href="#calc">Рассчитать доход для другой категории</a>
+                            </div>
+                        </div>
+                        <img src="img/man.svg" alt="" class="example__img">
+                    </div>
+                </div>
+            </section>
+
+            <section class="how">
+                <div class="container">
+                    <div class="how__title display2">Как это работает?</div>
+                    <div class="how__items">
+                        <div class="how__item">
+                            <div class="how__img">
+                                <img src="img/how.svg" alt="">
+                                <div class="how__num">
+                                    <span>1</span>
+                                </div>
+                                <img src="img/arrow2.svg" alt="" class="how__arrow">
+                                <img src="img/arrow5.svg" alt="" class="how__arrow2">
+                            </div>
+                            <div class="how__text">
+                                <button  data-modal="callModal">Оформите заявку</button> на сайте, сфотографируйте и опишите вещи, которые хотели бы сдать.
+                            </div>
+                        </div>
+                        <div class="how__item">
+                            <div class="how__img">
+                                <img src="img/how2.svg" alt="">
+                                <div class="how__num">
+                                    <span>2</span>
+                                </div>
+                                <img src="img/arrow3.svg" alt="" class="how__arrow">
+                                <img src="img/arrow6.svg" alt="" class="how__arrow2">
+                            </div>
+                            <div class="how__text">
+                                После одобрения заявки <span>привезите вещи</span> в наш логистический центр в удобное для вас время. Также вы можете вызвать курьера.
+                            </div>
+                        </div>
+                        <div class="how__item">
+                            <div class="how__img">
+                                <img src="img/how3.svg" alt="">
+                                <div class="how__num">
+                                    <span>3</span>
+                                </div>
+                                <img src="img/arrow4.svg" alt="" class="how__arrow">
+                                <img src="img/arrow7.svg" alt="" class="how__arrow2">
+                            </div>
+                            <div class="how__text">
+                                Мы произведем клининг, оформим страховку от повреждений и кражи, после чего <span>начнем сдавать вещи</span> в аренду тем, кто в них нуждается.
+                            </div>
+                        </div>
+                        <div class="how__item">
+                            <div class="how__img">
+                                <img src="img/how4.svg" alt="">
+                                <div class="how__num">
+                                    <span>4</span>
+                                </div>
+                            </div>
+                            <div class="how__text">
+                                Когда вам нужны будут вещи для собственного использования, мы вернем их чистыми, а также <span>заплатим за срок аренды</span> .
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reason">
+                <div class="container">
+                    <div class="reason__title display2">6 причин сдать вещи через нас</div>
+                    <div class="reason__slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide reason__item">
+                                    <div class="reason__left">
+                                        <div class="reason__img">
+                                            <img src="img/reason-icon.svg" alt="" class="reason__icon">
+                                            <img src="img/reason-bg.svg" alt="" class="reason__bg">
+                                        </div>
+                                    </div>
+                                    <div class="reason__right">
+                                        <div class="reason__subtitle">Минимум беспокойства</div>
+                                        <div class="reason__desc">Вам не будут ежедневно звонить десятки интересующихся людей, отвлекая от дел.</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reason__item">
+                                    <div class="reason__left">
+                                        <div class="reason__img">
+                                            <img src="img/reason-icon2.svg" alt="" class="reason__icon">
+                                            <img src="img/reason-bg2.svg" alt="" class="reason__bg">
+                                        </div>
+                                    </div>
+                                    <div class="reason__right">
+                                        <div class="reason__subtitle">Удобный просмотр</div>
+                                        <div class="reason__desc">Просмотр без вашего участия в удобное для будущего арендатора время</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reason__item">
+                                    <div class="reason__left">
+                                        <div class="reason__img">
+                                            <img src="img/reason-icon3.svg" alt="" class="reason__icon">
+                                            <img src="img/reason-bg3.svg" alt="" class="reason__bg">
+                                        </div>
+                                    </div>
+                                    <div class="reason__right">
+                                        <div class="reason__subtitle">Не нужен залог</div>
+                                        <div class="reason__desc">Вам не придется требовать залог с арендатора, потому что все застраховано</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reason__item">
+                                    <div class="reason__left">
+                                        <div class="reason__img">
+                                            <img src="img/reason-icon4.svg" alt="" class="reason__icon">
+                                            <img src="img/reason-bg4.svg" alt="" class="reason__bg">
+                                        </div>
+                                    </div>
+                                    <div class="reason__right">
+                                        <div class="reason__subtitle">Простой возврат</div>
+                                        <div class="reason__desc">Когда вам нужна будет вещь, вы получаете ее без проблем в удобное время</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reason__item">
+                                    <div class="reason__left">
+                                        <div class="reason__img">
+                                            <img src="img/reason-icon5.svg" alt="" class="reason__icon">
+                                            <img src="img/reason-bg5.svg" alt="" class="reason__bg">
+                                        </div>
+                                    </div>
+                                    <div class="reason__right">
+                                        <div class="reason__subtitle">Сделаем клининг</div>
+                                        <div class="reason__desc">После сдачи в аренду Вам не придется заниматься чисткой самостоятельно</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reason__item">
+                                    <div class="reason__left">
+                                        <div class="reason__img">
+                                            <img src="img/reason-icon6.svg" alt="" class="reason__icon">
+                                            <img src="img/reason-bg6.svg" alt="" class="reason__bg">
+                                        </div>
+                                    </div>
+                                    <div class="reason__right">
+                                        <div class="reason__subtitle">Страховка</div>
+                                        <div class="reason__desc">В случае кражи или утери вещи, Вы получаете полное возмещение оценочной стоимости.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="calc" class="calc">
+                <div class="container">
+                    <div class="calc__title display2">Сколько я заработаю?</div>
+                    <div class="calc__inner">
+                        <div class="calc__left">
+                            <div class="calc__subtitle">Категория, в которой Вы могли бы сдавать вещи:</div>
+                            <div class="calc__tags">
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Одежда</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input checked type="radio" name="category">
+                                    <label>Электроника</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Спорт</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Туризм</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Детские товары</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Отдых и развлечения</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Техника для дома</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Инструменты</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Для хобби</label>
+                                </div>
+                                <div class="calc__tag">
+                                    <input type="radio" name="category">
+                                    <label>Для мероприятий</label>
+                                </div>
+                            </div>
+                            <form action="" class="calc__form">
+                                <fieldset class="fg">
+                                    <label>Тип вещей</label>
+                                    <select name="years" class="js-custom_select" >
+                                        <option value="1" selected>Телефон</option>
+                                        <option value="2">Ноутбук</option>
+                                        <option value="3">Планшет</option>
+                                        <option value="4">Планшет 2</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset class="fg">
+                                    <label>Количество</label>
+                                    <input type="text" value="1">
+                                </fieldset>
+                                <fieldset class="fg">
+                                    <label>На какой период?</label>
+                                    <select name="years" class="js-custom_select">
+                                        <option value="1" selected>Неделю</option>
+                                        <option value="2">Месяц</option>
+                                        <option value="3">Сезон</option>
+                                        <option value="4">Весь год</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset class="fg">
+                                    <label>Примерная стоимость вещи</label>
+                                    <input type="text" placeholder="Введите сумму">
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="calc__right">
+                             <div class="calc__earn">
+                                 <img src="img/earn-bg.svg" alt="" class="calc__earn-img">
+                                 <div class="calc__earn-title">Вы можете заработать:</div>
+                                 <div class="calc__earn-price">2 500 ₽</div>
+                                 <button data-modal="callModal" class="calc__earn-btn mbtn mbtn-white">Хочу заработать</button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </main>
+        @@include('components/page-blocks/_footer.html')
+    </div>
+    @@include('components/_popups.html')
+
+    @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

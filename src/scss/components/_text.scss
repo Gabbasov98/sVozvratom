@@ -1,0 +1,12 @@
+@import "../vars";
+.display2{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 116%;
+}
+
+@media screen and (max-width: 992px){
+  .display2{
+    font-size: 28px;
+  }
+}

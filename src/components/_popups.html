@@ -1,0 +1,35 @@
+<div class="modal modal--activee" id="callModal">
+    <div class="modal__dialog">
+        <div class="modal__top">
+            <div class="modal__title display2">Хочу сдавать вещи</div>
+            <button type="button" class="modal__close mbtn" data-bs-dismiss="modal" aria-label="Close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.5079 18.122L14.386 12.0001L20.5079 5.87822C21.1688 5.21729 21.1688 4.15322 20.5079 3.49229C19.847 2.83135 18.7829 2.83135 18.122 3.49229L12.0001 9.61416L5.87822 3.49229C5.21729 2.83135 4.15322 2.83135 3.49229 3.49229C2.83135 4.15322 2.83135 5.21729 3.49229 5.87822L9.61416 12.0001L3.49229 18.122C2.83135 18.7829 2.83135 19.847 3.49229 20.5079C4.15322 21.1688 5.21729 21.1688 5.87822 20.5079L12.0001 14.386L18.122 20.5079C18.7829 21.1688 19.847 21.1688 20.5079 20.5079C21.1642 19.847 21.1642 18.7782 20.5079 18.122Z" fill="#D3CCEC"/>
+                </svg>
+            </button>
+        </div>
+        <form id="callForm" class="modal__form validate-form">
+            <fieldset class='fg'>
+                <label>Ваше имя</label>
+                <input type='text' name="name" placeholder="Как к Вам обращаться?"/>
+            </fieldset>
+            <fieldset class='fg'>
+                <label>Телефон</label>
+                <input type='text' name="name" placeholder="Телефон для обратной связи"/>
+            </fieldset>
+            <fieldset class='fg'>
+                <label>Что могли бы сдать?</label>
+                <textarea placeholder="Перечислите, что могли бы сдать и на какой срок"></textarea>
+            </fieldset>
+            <button class="modal__btn mbtn mbtn-blue">
+                <span>Отправить заявку</span>
+            </button>
+            <div class="modal__check check">
+                <input checked type="checkbox">
+                <label>
+                    Подтверждаю, что согласен с <a href="">условиями передачи и обработки персональных данных</a>
+                </label>
+            </div>
+        </form>
+    </div>
+</div>
