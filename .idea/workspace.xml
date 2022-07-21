@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed120b1-352d-4714-a971-f1cfd0d71b5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sourcemaps/main.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/sourcemaps/main.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_ui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/select.scss" afterDir="false" />
-    </list>
+    <list default="true" id="0ed120b1-352d-4714-a971-f1cfd0d71b5d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,12 +63,35 @@
       <updated>1657854206202</updated>
       <workItem from="1657854207621" duration="200000" />
       <workItem from="1657855459484" duration="21899000" />
-      <workItem from="1658372246446" duration="3725000" />
+      <workItem from="1658372246446" duration="3881000" />
     </task>
+    <task id="LOCAL-00001" summary="ывыв">
+      <created>1658376100950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658376100950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ывыв" />
+    <option name="LAST_COMMIT_MESSAGE" value="ывыв" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="53" key="SettingsEditor" timestamp="1657855519430">
