@@ -11,10 +11,17 @@
   width: 100%;
   height: 50px;
   position: relative;
-  border: 2px solid #EAE8F6;
-  background: #FAFAFD;
-  border-radius: 7px;
-  cursor: pointer;
+
+  input{
+    border: 2px solid #EAE8F6;
+    background: #FAFAFD;
+    border-radius: 7px;
+    cursor: pointer;
+    caret-color: transparent;
+  }
+  &:hover{
+    border-color: #CAC3F1;
+  }
   .placeholder_select{
     position: relative;
     width: 100%;

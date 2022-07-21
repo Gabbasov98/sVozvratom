@@ -48,7 +48,7 @@
            </section>
 
             <section class="example">
-                <img src="img/example-bg.webp" alt="" class="example__bg">
+                <img src="img/example-bg5.svg" alt="" class="example__bg">
                 <div class="container">
                     <div class="example__inner">
                         <div class="example__text">
@@ -264,7 +264,7 @@
                             <form action="" class="calc__form">
                                 <fieldset class="fg">
                                     <label>Тип вещей</label>
-                                    <select name="years" class="js-custom_select" >
+                                    <select class="js-custom_select" data-placeholder="Выберите тип вещей">
                                         <option value="1" selected>Телефон</option>
                                         <option value="2">Ноутбук</option>
                                         <option value="3">Планшет</option>
@@ -273,20 +273,21 @@
                                 </fieldset>
                                 <fieldset class="fg">
                                     <label>Количество</label>
-                                    <input type="text" value="1">
+                                    <input id="productCount" type="number" min="1" value="1">
+                                    <span class="fg__error">Мин. - 1</span>
                                 </fieldset>
                                 <fieldset class="fg">
                                     <label>На какой период?</label>
-                                    <select name="years" class="js-custom_select">
-                                        <option value="1" selected>Неделю</option>
-                                        <option value="2">Месяц</option>
-                                        <option value="3">Сезон</option>
-                                        <option value="4">Весь год</option>
+                                    <select id="rentPeriod" class="js-custom_select">
+                                        <option value="3" selected>Неделю</option>
+                                        <option value="12">Месяц</option>
+                                        <option value="48">Сезон</option>
+                                        <option value="144">Весь год</option>
                                     </select>
                                 </fieldset>
                                 <fieldset class="fg">
                                     <label>Примерная стоимость вещи</label>
-                                    <input type="text" placeholder="Введите сумму">
+                                    <input id="productPrice" value="1000" type="number" placeholder="Введите сумму">
                                 </fieldset>
                             </form>
                         </div>
@@ -294,7 +295,7 @@
                              <div class="calc__earn">
                                  <img src="img/earn-bg.svg" alt="" class="calc__earn-img">
                                  <div class="calc__earn-title">Вы можете заработать:</div>
-                                 <div class="calc__earn-price">2 500 ₽</div>
+                                 <div class="calc__earn-price"> <span id="price"></span> ₽</div>
                                  <button data-modal="callModal" class="calc__earn-btn mbtn mbtn-white">Хочу заработать</button>
                              </div>
                         </div>

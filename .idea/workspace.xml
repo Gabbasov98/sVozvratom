@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed120b1-352d-4714-a971-f1cfd0d71b5d" name="Default Changelist" comment="" />
+    <list default="true" id="0ed120b1-352d-4714-a971-f1cfd0d71b5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sourcemaps/main.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/sourcemaps/main.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_ui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/select.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2BxibJUhRdfox8H6ANcjZQIoX7f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1657854206202</updated>
       <workItem from="1657854207621" duration="200000" />
-      <workItem from="1657855459484" duration="21171000" />
+      <workItem from="1657855459484" duration="21899000" />
+      <workItem from="1658372246446" duration="3725000" />
     </task>
     <servers />
   </component>
@@ -60,5 +76,17 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1657877982106" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/js/components/calc.js</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

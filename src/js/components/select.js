@@ -8,9 +8,14 @@ function renderSelects(){
             selects[i].classList.add('hide_select');
             let selectClassByName = selects[i].getAttribute('name');
             let takePlaceholder = selects[i].getAttribute('data-placeholder');
+            let selectedOption = selects[i].querySelector('option:checked');
+            let optionText = ''
+            if (selectedOption){
+                optionText = selectedOption.innerHTML
+            }
             let placeholder = '';
             if(takePlaceholder) placeholder = takePlaceholder;
-            selects[i].insertAdjacentHTML('afterend', '\n <div class="select_common ' + selectClassByName + prefix + '">\n <div class="placeholder_select">' + placeholder + '</div>\n <ul class="select_items"></ul>\n </div>');
+            selects[i].insertAdjacentHTML('afterend', '\n <div class="select_common ' + selectClassByName + prefix + '">\n <input class="placeholder_select" readonly value=" ' + optionText + '"/>' + '\n <ul class="select_items"></ul>\n </div>');
             let checkTextPlaceholder = selects[i].nextElementSibling.querySelector('.placeholder_select');
             if( !checkTextPlaceholder.textContent ) {
                 for ( let o = 0; o < selects[i].children.length; o++ ) {
@@ -25,6 +30,8 @@ function renderSelects(){
                 selects[i].nextElementSibling.querySelector('.placeholder_select').insertAdjacentHTML('afterbegin', '\n <span class="fixed_placeholder">' + fixedPlaholder + '</span>');
             }
             // Add options
+
+
             let selectOptions = selects[i].querySelectorAll('option');
             let checkOptionText = selects[i].nextElementSibling.querySelector('.select_items');
             if( !checkOptionText.textContent ) {
@@ -70,9 +77,9 @@ function renderSelects(){
                     let optionVal = e.currentTarget.textContent;
                     let takePlaceholder = selects[i].getAttribute('data-fixed-placeholder');
                     if( takePlaceholder ) {
-                        selects[i].nextElementSibling.querySelector('.placeholder_select').childNodes[2].textContent = optionVal;
+                        selects[i].nextElementSibling.querySelector('.placeholder_select').setAttribute("value", optionVal);
                     } else {
-                        selects[i].nextElementSibling.querySelector('.placeholder_select').textContent = optionVal;
+                        selects[i].nextElementSibling.querySelector('.placeholder_select').setAttribute("value", optionVal);
                     }
                     selects[i].nextElementSibling.classList.remove('select_active');
                     // Add value in native select
@@ -81,6 +88,8 @@ function renderSelects(){
                         optionsNative[j].removeAttribute('selected');
                     }
                     optionsNative[l].setAttribute('selected', 'selected');
+
+                    calcPrice()
                 });
             }
             for(let l = 0; l < itemsLi.length; l++) {

@@ -5,6 +5,16 @@
 @import 'components/select';
 .fg {
     position: relative;
+    &__error{
+        position: absolute;
+        top: 100%;
+        color: red;
+        font-size: 12px;
+        left: 0;
+        margin-top: 4px;
+        opacity: 0;
+        pointer-events: none;
+    }
     label{
         font-weight: 600;
         font-size: 15px;
@@ -29,12 +39,22 @@
             color: #BAB7CA;
             font-weight: 500;
         }
+        &:hover,
+        &:focus{
+            border-color: #CAC3F1;
+        }
     }
     textarea{
         padding-top: 13px;
         padding-bottom: 13px;
         height: 110px;
         resize: none;
+    }
+    .input-error{
+        border-color: red;
+        &~.fg__error{
+            opacity: 1;
+        }
     }
 }
 
